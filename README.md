@@ -43,6 +43,18 @@ El software está construido con las siguientes técnologías:
 * JUnit
 * Mockito
 
+El IDE utilizado para desarrollar la solución fue Eclipse IDE 2020 06.
+
 # Test de la aplicación
 
 Se utilizó JUnit para las pruebas unitarias de los diferentes eventos que se estimaron para la solución construida, teniendo un 82% de code average
+
+#Instrucciones de Instalación
+
+  1. Copie la URL ofrecida por GitHub de este repositorio, ingrésela en su consola de Git y ejecute el comando git clone url.
+  2. Ejecute su IDE de preferencia e importe el proyecto.
+  3. Una vez importado, realizar la instalación de dependencias con Maven.
+  4. Instalar un servidor de aplicaciones de preferencia dentro de su IDE de desarrollo.
+  5. Limpiar el proyecto y ejecutarlo con el servidor de aplicaciones instalado en el IDE.
+  6. Una vez desplegado el proyecto, debe indicarnos el despliegue en una url similar a http://localhost:8080/mutantDNA/
+  7. Completar la dirección desplegada con alguno de los métodos rest que se desee consumir.
