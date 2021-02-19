@@ -30,7 +30,7 @@ para consumir el servicio se debe enviar realizar una petición POST con un JSON
 Servicio expuesto en la el endpoint https://mutantdna-env.eba-iwmu82sw.us-east-2.elasticbeanstalk.com/stats encargado de responder con las estadisticas de la información guardada en el servicio /mutant.
 
 * la respuesta en formato JSON de este servicio se debe dar de la siguiente manera:
-  {“count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4}
+  { “count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4 }
   
 # Arquitectura y definición técnica de la API
 
