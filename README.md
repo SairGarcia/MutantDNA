@@ -14,7 +14,7 @@ La API cuenta con dos métodos (el primero POST y el segundo GET), encargados de
 
 ## /mutant
 
-Servicio expuesto en la el endpoint https://mutantdna-env.eba-iwmu82sw.us-east-2.elasticbeanstalk.com/mutant encargado de evaluar y guardar la inforamción de un ADN.
+Servicio expuesto en la el endpoint http://mutantsdnav12-env.eba-aqgd7pmk.us-east-2.elasticbeanstalk.com/mutant encargado de evaluar y guardar la inforamción de un ADN.
 
 para consumir el servicio se debe enviar realizar una petición POST con un JSON así:
 
@@ -27,7 +27,7 @@ para consumir el servicio se debe enviar realizar una petición POST con un JSON
 
 ## /stats
 
-Servicio expuesto en la el endpoint https://mutantdna-env.eba-iwmu82sw.us-east-2.elasticbeanstalk.com/stats encargado de responder con las estadisticas de la información guardada en el servicio /mutant.
+Servicio expuesto en la el endpoint http://mutantsdnav12-env.eba-aqgd7pmk.us-east-2.elasticbeanstalk.com/stats encargado de responder con las estadisticas de la información guardada en el servicio /mutant.
 
 * la respuesta en formato JSON de este servicio se debe dar de la siguiente manera:
   { “count_mutant_dna”:40, “count_human_dna”:100, “ratio”:0.4 }
